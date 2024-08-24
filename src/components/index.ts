@@ -4,6 +4,8 @@ import Services from './Services';
 import Categories from './Categories';
 import Menu from './Menu';
 import MenuItem from './MenuItem';
+import FoodCard from './FoodCard';
+import Footer from './Footer';
 
 export {
     Navbar,
@@ -12,4 +14,6 @@ export {
     Categories,
     Menu,
     MenuItem,
+    FoodCard,
+    Footer,
 }
