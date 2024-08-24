@@ -1,4 +1,4 @@
-import { Banner, Categories, Navbar, Services } from "@/components";
+import { Banner, Categories, Menu, Navbar, Services } from "@/components";
 
 export default function Home() {
   return (
@@ -7,6 +7,7 @@ export default function Home() {
       <Banner />
       <Services />
       <Categories />
+      <Menu />
     </div>
   );
 }
