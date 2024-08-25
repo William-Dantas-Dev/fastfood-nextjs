@@ -62,9 +62,16 @@ const Menu = () => {
     ];
     return (
         <div className="mx-auto py-8 px-32">
-            <h2 className="text-3xl font-bold text-center mb-8">
-                Our <span className="text-red-500">Regular</span> Menu
-            </h2>
+            <div className="flex flex-col md:flex-row justify-between items-start pb-8">
+                <div className="md:w-1/2">
+                    <h2 className="text-5xl font-bold text-black">
+                        Our <span className="text-red-700">Regular</span>
+                    </h2>
+                    <h2 className="text-5xl font-bold text-black">
+                        Menu
+                    </h2>
+                </div>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
                 {menuItems.map((item, index) => (
                     <MenuItem key={index} {...item} />

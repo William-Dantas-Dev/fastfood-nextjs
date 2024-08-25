@@ -11,7 +11,7 @@ const Banner = () => {
                     All Fast Food is
                 </h1>
                 <h1 className="text-4xl md:text-7xl font-bold text-red-600">
-                    Available at <span className="text-yellow-500">Foodle</span>
+                    Available at <span className="text-yellow-500">FoodHive</span>
                 </h1>
                 <p className="flex justify-center md:justify-start items-center text-gray-700 py-6 md:py-10">
                     <Image 
